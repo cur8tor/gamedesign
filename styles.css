@@ -5,6 +5,12 @@ body, h1, h2, p, a, img {
   border: none;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .h23 {
   margin-left: 20px;
   margin-top: 10px;
@@ -58,6 +64,7 @@ header img {
 
 .container {
   padding: 15px; /* Space between the border and content */
+  flex: 1;
   margin: 0 auto; /* Center the container */
   max-width: 95%; /* Prevent the container from taking the full screen width */
 }
