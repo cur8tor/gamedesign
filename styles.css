@@ -1,0 +1,73 @@
+body, h1, h2, p, a, img {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: #224B2A;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 100px; /* Offset from the left */
+}
+
+header img {
+  max-width: 150px; /* Logo size */
+  margin-right: 20px; /* Spacing between logo and title */
+}
+
+#about {
+  margin-top: 2rem; /* Added space above the about section */
+  margin-bottom: 3rem; /* Added space above the about section */
+}
+
+.container {
+  padding: 15px; /* Space between the border and content */
+  margin: 0 auto; /* Center the container */
+  max-width: 95%; /* Prevent the container from taking the full screen width */
+}
+
+#past-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.project {
+  position: relative;
+  width: 100%;
+}
+
+.project img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project a {
+  position: relative;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+.project a::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%; /* Force the link to maintain a square shape */
+}
