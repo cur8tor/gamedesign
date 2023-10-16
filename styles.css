@@ -5,6 +5,23 @@ body, h1, h2, p, a, img {
   border: none;
 }
 
+.h23 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  margin-left: 7px;
+}
+
+.aych22 {
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  position: relative;
+  width: 95%;
+  margin: 10px;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -33,6 +50,10 @@ header img {
 #about {
   margin-top: 2rem; /* Added space above the about section */
   margin-bottom: 3rem; /* Added space above the about section */
+  border-radius: 10px;
+  position: relative;
+  width: 95%;
+  margin: 10px;
 }
 
 .container {
@@ -49,7 +70,8 @@ header img {
 
 .project {
   position: relative;
-  width: 100%;
+  width: 95%;
+  margin: 10px;
 }
 
 .project img {
@@ -59,6 +81,7 @@ header img {
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .project a {
